@@ -1,12 +1,60 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Net.Cache;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Collections;
+ 
+// the beginning
 namespace DebuggingProject
 {
+ 
     class Program
     {
+ 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // debugging tutorial
+            var friends = new List<string> { "Frank", "Joe", "Michelle", "Andy", "Maria", "Carlos", "Angelina" };
+            var partyFriends = GetPartyFriends(friends, 3);
+ 
+            foreach (var name in partyFriends)
+            {
+                Console.WriteLine(name);
+            }
         }
+ 
+        public static List<string> GetPartyFriends(List<string> list, int count)
+        {
+            var partyFriends = new List<string>();
+ 
+            while(partyFriends.Count < count)
+            {
+                var currentFriend = GetPartyFriend(list);
+                partyFriends.Add(currentFriend);
+                list.Remove(currentFriend);
+            }
+            return partyFriends;
+        }
+ 
+        public static string GetPartyFriend(List<string> list)
+        {
+            string shortestName = list[0];
+            for(var i = 0; i<list.Count; i++)
+            {
+                // intentional logical bug here
+                if(list[i].Length > shortestName.Length)
+                {
+                    shortestName = list[i];
+                }
+            }
+            return shortestName;
+ 
+        }
+ 
+ 
     }
+ 
+ 
 }

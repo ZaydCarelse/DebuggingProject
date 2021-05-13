@@ -1,0 +1,16 @@
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\DebuggingProject.exe
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\DebuggingProject.deps.json
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\DebuggingProject.runtimeconfig.json
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\DebuggingProject.runtimeconfig.dev.json
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\DebuggingProject.dll
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\ref\DebuggingProject.dll
+C:\Users\zaydc\projects\DebuggingProject\bin\Debug\net5.0\DebuggingProject.pdb
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.csprojAssemblyReference.cache
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.AssemblyInfoInputs.cache
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.AssemblyInfo.cs
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.csproj.CoreCompileInputs.cache
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.dll
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\ref\DebuggingProject.dll
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.pdb
+C:\Users\zaydc\projects\DebuggingProject\obj\Debug\net5.0\DebuggingProject.genruntimeconfig.cache
